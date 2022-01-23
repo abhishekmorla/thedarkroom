@@ -30,6 +30,7 @@ const append = (message , position) =>{
 
 
 const names = prompt("Enter your name to join");
+
 socket.emit('new-user-joined' , names);
 
 //if new user join , receieve from server

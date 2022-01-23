@@ -76,8 +76,10 @@ body{
 .left{
     background-color: pink;
     float:left;
+
     clear: both;
     width: 15rem;
+    height: 3.7rem;
     padding: 0.9rem;
     margin: 1rem 3rem;
     overflow-wrap: break-word;
@@ -95,6 +97,7 @@ body{
     float:right;
     clear: both;
     width: 15rem;
+    height: 3.7rem;
     text-align: justify;
     overflow-wrap: break-word;
     white-space: pre-wrap;
@@ -156,12 +159,11 @@ body{
     appearance: none;
     font-family: cursive;
     text-align: center;
-    font: 30px 'Open Sans', sans-serif;
-     color: rgb(0, 0, 0);
-     width: 100%;
+    font: 1rem 'Open Sans', sans-serif;
+    color: rgb(0, 0, 0);
+    width: 100%;
     max-width: 40rem;
     background-color: rgba(155, 5, 5, 0.63);
-    padding: 0.3rem 0.1rem 0.3rem 1rem;
     box-shadow: none;
     margin: 0;
     
@@ -176,11 +178,17 @@ body{
     outline:none;
 }
 .btn {
-    width: 20%;
+    width: 17%;
     margin: 0.5rem;
+    border-radius: 2rem;
 }
 
-
+.footer{
+    text-align:center;
+    padding-bottom:0.2rem;
+    font-size:1rem;
+    margin-bottom:0;
+  }
 
 
 @media(max-width: 40rem) {
