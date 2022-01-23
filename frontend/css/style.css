@@ -76,10 +76,9 @@ body{
 .left{
     background-color: pink;
     float:left;
-
     clear: both;
-    width: 15rem;
-    padding: 0.9rem;
+    width: 11rem;
+    padding: 0.5rem;
     margin: 1rem 3rem;
     overflow-wrap: break-word;
     white-space: pre-wrap;
@@ -95,11 +94,11 @@ body{
     background-color: pink;
     float:right;
     clear: both;
-    width: 15rem;
+    width: 11rem;
+    padding: 0.5rem;
     text-align: justify;
     overflow-wrap: break-word;
     white-space: pre-wrap;
-    padding: 0.9rem;
     margin: 1rem 3rem;
     border: 0.2rem solid white;
     border-radius: 1rem;
