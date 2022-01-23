@@ -1,10 +1,6 @@
 //node server which will handle socket io connection
 
-const io = require('socket.io')(8000, {
-    cors: {
-      origin: '*',
-    }
-  });
+const io = require('socket.io')();
 
 const users= {};
 
@@ -23,3 +19,5 @@ io.on('connection',socket => {
         delete users[socket.id];
     });
 })
+
+io.listen(process.env.PORT || 8000);
