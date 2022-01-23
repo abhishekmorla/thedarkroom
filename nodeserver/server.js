@@ -5,10 +5,6 @@ const io = require('socket.io')(8000, {
       origin: '*',
     }
   });
-<<<<<<< HEAD
-=======
-
->>>>>>> 550b7e4 (final 1)
 
 const users= {};
 
