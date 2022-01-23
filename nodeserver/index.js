@@ -7,6 +7,7 @@ const io = require('socket.io')(8000, {
   });
 
 const users= {};
+
 io.on('connection',socket => {
     socket.on('new-user-joined' , name =>{ //new-user-joined is event listiner connect to js to get what you want
         users[socket.id] = name;
