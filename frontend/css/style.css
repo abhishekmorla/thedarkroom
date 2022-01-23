@@ -64,7 +64,7 @@ body{
 
 }
 .message{
-    font: 20px 'Open Sans', sans-serif;
+    font: 15px 'Open Sans', sans-serif;
     /* width: 15rem;
     padding: 0.9rem;
     margin: 1rem 3rem; */
@@ -78,7 +78,7 @@ body{
     float:left;
     clear: both;
     width: 11rem;
-    padding: 0.5rem;
+    padding: 1.5rem;
     margin: 1rem 3rem;
     overflow-wrap: break-word;
     white-space: pre-wrap;
