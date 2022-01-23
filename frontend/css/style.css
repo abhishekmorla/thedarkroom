@@ -79,7 +79,6 @@ body{
 
     clear: both;
     width: 15rem;
-    height: 3.7rem;
     padding: 0.9rem;
     margin: 1rem 3rem;
     overflow-wrap: break-word;
@@ -97,7 +96,6 @@ body{
     float:right;
     clear: both;
     width: 15rem;
-    height: 3.7rem;
     text-align: justify;
     overflow-wrap: break-word;
     white-space: pre-wrap;
