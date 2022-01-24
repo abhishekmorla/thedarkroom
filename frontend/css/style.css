@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 @import url('https://fonts.cdnfonts.com/css/by-the-way');
-@import url('https://fonts.googleapis.com/css2?family=Lekton&display=swap');body{
+@import url('https://fonts.googleapis.com/css2?family=Lekton&display=swap');
+body{
     background-image: url("../background.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -83,7 +84,7 @@
     min-width: 6rem;
     width: 31rem;
     padding: 1rem;
-    margin: 1rem 3rem;
+    margin: 0.3rem 3rem;
     overflow-wrap: break-word;
     white-space: pre-wrap;
     border-radius: 3.7rem 4.3rem 4.3rem 0rem;
@@ -104,7 +105,7 @@
     padding: 1rem;
     overflow-wrap: break-word;
     white-space: pre-wrap;
-    margin: 1rem 3rem;
+    margin: 0.3rem 3rem;
     border-radius: 2.3rem 3.3rem 0rem 2.3rem;
     box-sizing: border-box;
     font-weight: bolder;
