@@ -35,22 +35,22 @@ socket.emit('new-user-joined' , names);
 
 //if new user join , receieve from server
 socket.on('user-joined' , names => {
-    append(`${names} joined the chat`, 'center')
+    append(`${names}joined the chat`, 'center')
 })
 
 //if server send message , receive it
 socket.on('receive' , data => {
-    append(`${data.name} : ${data.message}`, 'left')
+    append(`${data.name}: ${data.message}`, 'left')
 })
 socket.on('left' , name => {
-    append(`${name} left the chat`, 'center')
+    append(`${name}left the chat`, 'center')
 })
 
 
 form.addEventListener('submit',(e)=>{
     e.preventDefault();
     const message = messageInput.value;
-    append(`You: ${message}` , 'right');
+    append(`${message}` , 'right');
     socket.emit('send', message);
     messageInput.value = '';
 })

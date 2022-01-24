@@ -4,8 +4,7 @@
     box-sizing: border-box;
 }
 @import url('https://fonts.cdnfonts.com/css/by-the-way');
-
-body{
+@import url('https://fonts.googleapis.com/css2?family=Lekton&display=swap');body{
     background-image: url("../background.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -24,6 +23,7 @@ body{
     /* margin-top: 0.8rem; */
     margin: 0.4rem;
     font-size: 2.4rem;
+    cursor:default;
     font-family: 'By the way', sans-serif;
     text-align: center;
     color: #c45353;
@@ -65,6 +65,7 @@ body{
 }
 .message{
     font: 15px 'Open Sans', sans-serif;
+    cursor:default;
     /* width: 15rem;
     padding: 0.9rem;
     margin: 1rem 3rem; */
@@ -74,16 +75,20 @@ body{
 }
 
 .left{
-    background-color: pink;
-    float:left;
+    background-color: black;
+    color: red;
+    opacity: 0.8;
+    float: left;
     clear: both;
-    width: 11rem;
-    padding: 1.5rem;
+    max-width: max-content;
+    min-width: 6rem;
+    width: 23rem;
+    padding: 1rem;
     margin: 1rem 3rem;
     overflow-wrap: break-word;
     white-space: pre-wrap;
     border: 0.2rem solid white;
-    border-radius: 1rem;
+    border-radius: 2rem;
     box-sizing: border-box;
     font-weight: bolder;
     
@@ -91,17 +96,20 @@ body{
 
 
 .right{
-    background-color: pink;
+    background-color: black;
+    color: #00ffde;
+    opacity: 0.8;
     float:right;
     clear: both;
-    width: 11rem;
-    padding: 1.5rem;
-    text-align: justify;
+    max-width: max-content;
+    min-width: 3rem;
+    width: 23rem;
+    padding: 1rem;
     overflow-wrap: break-word;
     white-space: pre-wrap;
     margin: 1rem 3rem;
     border: 0.2rem solid white;
-    border-radius: 1rem;
+    border-radius: 2rem;
     box-sizing: border-box;
     font-weight: bolder;
 }
@@ -112,13 +120,15 @@ body{
     clear: both;
     overflow-wrap: break-word;
     white-space: pre-wrap;
-    font-family: 'By the way',futura;
-    color:#ffffff;
+    font-family: 'Lekton', sans-serif;
+    color: #5bdfff;
     font-style: italic; 
     font-weight: bolder;
     text-align: center;
 }
-
+.center:hover{
+    cursor:progress;
+}
 
 
 #send-container{
@@ -175,6 +185,7 @@ body{
     html {
         font-size: 55%;
     }
+
 }
 @media(max-width: 56rem)
 {
