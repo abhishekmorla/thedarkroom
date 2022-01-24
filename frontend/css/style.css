@@ -87,8 +87,7 @@
     margin: 1rem 3rem;
     overflow-wrap: break-word;
     white-space: pre-wrap;
-    border: 0.2rem solid white;
-    border-radius: 2rem;
+    border-radius: 3.7rem 4.3rem 4.3rem 0rem;
     box-sizing: border-box;
     font-weight: bolder;
     
@@ -108,8 +107,7 @@
     overflow-wrap: break-word;
     white-space: pre-wrap;
     margin: 1rem 3rem;
-    border: 0.2rem solid white;
-    border-radius: 2rem;
+    border-radius: 2.3rem 3.3rem 0rem 2.3rem;
     box-sizing: border-box;
     font-weight: bolder;
 }
