@@ -82,7 +82,7 @@
     clear: both;
     max-width: max-content;
     min-width: 6rem;
-    width: 23rem;
+    width: 30rem;
     padding: 1rem;
     margin: 1rem 3rem;
     overflow-wrap: break-word;
@@ -103,7 +103,7 @@
     clear: both;
     max-width: max-content;
     min-width: 3rem;
-    width: 23rem;
+    width: 30rem;
     padding: 1rem;
     overflow-wrap: break-word;
     white-space: pre-wrap;
