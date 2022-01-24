@@ -77,7 +77,6 @@
 .left{
     background-color: black;
     color: red;
-    opacity: 0.8;
     float: left;
     clear: both;
     max-width: max-content;
@@ -97,7 +96,6 @@
 .right{
     background-color: black;
     color: #00ffde;
-    opacity: 0.8;
     float:right;
     clear: both;
     max-width: max-content;
