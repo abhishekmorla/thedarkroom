@@ -12,9 +12,8 @@ body{
 }
 
 .container{
-    padding-top: 2.5rem;
+    padding-top: 0.1rem;
     padding-bottom: 0.1rem;
-   
     display: flex;
     justify-content: center;
 }
@@ -23,10 +22,9 @@ body{
     /* margin-top: 0.8rem; */
     margin: 0.4rem;
     font-size: 2.4rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'By the way','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     color: #c45353;
-    animation: glow 1s ease-in-out infinite alternate;
 }
 
 ::-webkit-scrollbar {
@@ -112,9 +110,8 @@ body{
     clear: both;
     overflow-wrap: break-word;
     white-space: pre-wrap;
-    font-family: futura;
+    font-family: 'By the way',futura;
     color:#ffffff;
-    animation: glow 1s ease-in-out infinite alternate;
     font-style: italic; 
     font-weight: bolder;
     text-align: center;
@@ -166,14 +163,6 @@ body{
     
 }
 
-#messageinp:hover{
-    box-shadow: 1px 1px 20px 1px #ff0088;
-}
-
-#messageinp:focus-within{
-    box-shadow: 1px 1px 10px 1px #9e3333;
-    outline:none;
-}
 .btn {
     width: 17%;
     margin: 0.5rem;
@@ -200,12 +189,4 @@ body{
         font-size: 55%
     }
 }
-@-webkit-keyframes glow {
-    from {
-      text-shadow: 0 0 10px rgb(255, 0, 0), 0 0 20px rgb(250, 39, 39), 0 0 30px #e60000, 0 0 40px #000000, 0 0 50px #6b0000, 0 0 60px #4b3640, 0 0 70px #000000;
-    }
-    
-    to {
-      text-shadow: 0 0 20px rgb(0, 0, 0), 0 0 30px #000000, 0 0 40px #4b1111, 0 0 50px rgb(255, 0, 55), 0 0 60px #080406, 0 0 70px #3f2733, 0 0 80px #48ff00a9;
-    }
-  }
+@import url('http://fonts.cdnfonts.com/css/by-the-way');
