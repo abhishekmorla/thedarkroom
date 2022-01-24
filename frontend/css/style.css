@@ -84,7 +84,7 @@ body{
     min-width: 6rem;
     width: 31rem;
     padding: 1rem;
-    margin: 0.3rem 3rem;
+    margin: 0.1rem 3rem;
     overflow-wrap: break-word;
     white-space: pre-wrap;
     border-radius: 3.7rem 4.3rem 4.3rem 0rem;
@@ -105,7 +105,7 @@ body{
     padding: 1rem;
     overflow-wrap: break-word;
     white-space: pre-wrap;
-    margin: 0.3rem 3rem;
+    margin: 0.1rem 3rem;
     border-radius: 2.3rem 3.3rem 0rem 2.3rem;
     box-sizing: border-box;
     font-weight: bolder;
