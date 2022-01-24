@@ -117,15 +117,6 @@ body{
     text-align: center;
 }
 
-.center:hover{
-    color: rgb(255, 129, 213);
-    outline:none;
-    cursor:crosshair;
-}
-.center:focus-within{
-    box-shadow: 1px 1px 10px 1px #9e3333;
-    outline:none;
-}
 
 
 #send-container{
