@@ -6,7 +6,12 @@ const messageInput = document.getElementById('messageinp')
 
 const messageContainer = document.querySelector(".containerformiddleimg")
 
-
+messageInput.addEventListener("keypress", function(event) {
+    if(!messageInput.value)
+      if (event.key === "Enter") {
+        event.preventDefault();
+      }
+    });
 
 var audio1 = new Audio('ding.mp3')
 var audio2 = new Audio('left.wav')
