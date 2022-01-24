@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
+@import url('http://fonts.cdnfonts.com/css/by-the-way');
+
 body{
     background-image: url("../background.jpg");
     -webkit-background-size: cover;
@@ -180,4 +182,4 @@ body{
         font-size: 55%
     }
 }
-@import url('http://fonts.cdnfonts.com/css/by-the-way');
+
